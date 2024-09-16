@@ -14,6 +14,11 @@ export const Row = styled.tr`
   font-size: 20px;
   line-height: 40px;
   color: #12184f;
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: #eaecfb;
+  }
 `;
 
 export const Cell = styled.td`
@@ -31,7 +36,8 @@ export const Button = styled.button`
   border-radius: 8px;
   width: 80px;
   height: 20px;
-  color: #12184f;
+  color: white;
+  font-weight: 600;
 `;
 
 export const HeaderRow = styled.tr`

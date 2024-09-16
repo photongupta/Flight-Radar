@@ -7,10 +7,6 @@ export const FlightCard = styled.div`
   align-self: center;
   width: 40%;
   margin-left: 28%;
-  &:hover,
-  &:active {
-    cursor: pointer;
-  }
 `;
 
 export const List = styled.ul`

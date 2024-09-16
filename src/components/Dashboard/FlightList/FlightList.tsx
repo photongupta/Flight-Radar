@@ -29,7 +29,7 @@ const FlightList = () => {
             navigate(`flight-details/${flight.id}`);
           }}
         >
-          <Cell>{flight.airline}</Cell>
+          <Cell>&nbsp;{flight.airline}</Cell>
           <Cell>{flight.flightNumber}</Cell>
           <Cell>{flight.origin}</Cell>
           <Cell>{flight.destination}</Cell>
@@ -52,7 +52,7 @@ const FlightList = () => {
       <Table list-style="none">
         <tbody>
           <HeaderRow>
-            <HeaderCell>Air line</HeaderCell>
+            <HeaderCell>&nbsp;Air line</HeaderCell>
             <HeaderCell>Flight Number</HeaderCell>
             <HeaderCell>Origin</HeaderCell>
             <HeaderCell>Destination</HeaderCell>

@@ -1,8 +1,8 @@
 const statusColorMap: Record<string, string> = {
-  Departed: "skyBlue",
-  Boarding: "yellow",
-  "On Time": "green",
-  Delayed: "red",
+  Departed: "#33adff",
+  Boarding: "#ffcc00",
+  "On Time": "#00cc00",
+  Delayed: "#ff3333",
 };
 
 export default statusColorMap;

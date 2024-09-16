@@ -10,7 +10,7 @@
 - **Error Handling**: Provides clear error messages and feedback if there's an issue retrieving flight data.
 
 ### Access website on
-https://66e7bf3d68138cb8e11221ad--lucent-axolotl-597156.netlify.app/
+https://66e7c161985c3fbb637246b8--lucent-axolotl-597156.netlify.app
 
 ### Local Set up
 
